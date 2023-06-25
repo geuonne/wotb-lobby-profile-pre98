@@ -1,10 +1,11 @@
-Insert you mod description here.
-
-Notes:
-Insert additional notes & FAQ here.
+This mod is a request by my mate for bringing pre-9.7 player profile UI. But along with that the mod also corrects UI in some places:
+- Account creation date displaying in your own profile
+- Ability to navigate during profile background preview
+- Removal of unnecessary elements (header) and empty spaces
+- Bringing "Message" button to own profile. Given that, you can write to yourself, add yourself to friends and even add yourself to blacklist! I haven't seen more any interesting interactions yet.
 
 Compatibility:
-- Platform: (any|pc|android)
-- Game publisher: (any|wg|lg)
-- Game version: (any|[N.N-]N.N[+])
-- Game version tested against: N.N
+- Platform: any
+- Game publisher: any
+- Game version: any
+- Game version tested against: 10.0
