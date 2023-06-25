@@ -1,0 +1,26 @@
+animation BrightAnimated
+{
+	if (not isHovered) 
+	{
+		parallel 
+		{
+			sequence
+			{
+				ChangeProperty("**/Bright", "SizePolicy", "horizontalValue", 0, 0);
+		   		ChangeProperty("**/Bright", "SizePolicy", "horizontalValue", 80, 0.2, SINE_OUT);
+		    	ChangeProperty("**/Bright", "SizePolicy", "horizontalValue", 60, 0.1, SINE_IN);
+			}
+			ChangeProperty("**/Separator", "UIOpacityComponent", "opacity", 0.5, 0.3, SINE_OUT);
+			ChangeProperty("**/RatingTitle", "UIOpacityComponent", "opacity", 1, 0.3, SINE_OUT);
+		}
+	}
+	else
+	{
+   		parallel
+   		{
+   			ChangeProperty("**/Separator", "UIOpacityComponent", "opacity", 0.15, 0.2, SINE_OUT);
+   			ChangeProperty("**/Bright", "SizePolicy", "horizontalValue", 0, 0.2, SINE_OUT);
+   			ChangeProperty("**/RatingTitle", "UIOpacityComponent", "opacity", 0.5, 0.2, SINE_OUT);
+   		}
+	}
+}
