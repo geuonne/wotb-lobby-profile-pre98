@@ -10,7 +10,7 @@ GREP = grep
 
 CURL = curl
 7Z = 7z
-DVPL = dvpl
+DVPL = dvpl_converter
 GH = gh
 GIT = git
 MAKE = make
@@ -18,7 +18,7 @@ MAKE = make
 
 # Mod constants
 # Mod full name
-WMOD_TITLE = Insert your mod name here
+WMOD_TITLE = Lobby Profile Pre98
 # One or more of: (pc|android|ios|any)
 WMOD_INITIALTARGETPLATFORM = any
 # (N.N.N[+|[-N.N.N]]|any)
@@ -89,7 +89,7 @@ build: $(DEPS)
 	$(MKDIR) -p $(BUILDPLATFORMDIR)
 	$(CP) -R $(SRCDIR)/* $(BUILDPLATFORMDIR)
 ifeq ($(WMOD_DVPLIZE), y)
-	$(CD) $(BUILDPLATFORMDIR) && $(DVPL) compress
+	$(CD) $(BUILDPLATFORMDIR) && $(DVPL) encrypt
 endif
 
 install: build
