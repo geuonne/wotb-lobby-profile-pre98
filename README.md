@@ -1,9 +1,10 @@
-# WoT Blitz - `insert your mod name here`
+# WoT Blitz - Lobby Profile Pre-9.8
 
-`insert any media here`
+![](public/media/main_tab.jpg)
+![](public/media/tanks_tab.jpg)
+![](public/media/profile_background_preview.jpg)
 
 ## Description
-`Here go mod descriptions - the content that you can provide in various mod sites as well. Specify the links to your mod descriptions from public/desc directory here`
 * [en](public/desc/en.txt)
 * [ru](public/desc/ru.txt)
 
@@ -19,7 +20,7 @@
 ### Build from source
 
 Dependencies
-- [`dvpl` converter](https://github.com/Maddoxkkm/dvpl_converter)
+- [`dvpl` converter](https://github.com/Tankerch/dvpl_converter)
 - `make`
 - `coreutils` (or any other similar utilites)
 
