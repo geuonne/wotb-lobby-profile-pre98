@@ -1,4 +1,4 @@
-This mod is a request by my mate for bringing pre-9.7 player profile UI. But along with that the mod also corrects UI in some places:
+This mod is a request by my mate for bringing pre-9.8 player profile UI. But along with that the mod also corrects UI in some places:
 - Account creation date displaying in your own profile
 - Ability to navigate during profile background preview
 - Removal of unnecessary elements (header) and empty spaces
